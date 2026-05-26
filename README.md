@@ -63,7 +63,7 @@ int main() {
     struct message msg;
     
     msg.type = 1;
-    strcpy(msg.text, "Hello Thaarakeshwar");
+    strcpy(msg.text, "Hello Devesh");
     
     msgsnd(msgid, &msg, sizeof(msg.text), 0);
     printf("Sent: %s\n", msg.text);
